@@ -1,0 +1,129 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+};
+
+html{
+    font-size: 16px;
+}
+
+body{
+    line-height: 1.5;
+    background-color: rgb(61, 204, 248);
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li{
+    font-size: 1.5rem;
+    margin-left: 1.5rem;
+    color:chartreuse;
+    font-weight: 500;
+}
+.header{
+    background-color: rgb(61, 204, 248);
+}
+
+.center{
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: rgb(61, 204, 248);
+    color:chartreuse;
+    margin-top: 1rem;
+    padding: 1rem;
+
+}
+
+.box{
+    width: 520px;
+    text-align: center;
+    border: 2px solid darkcyan;
+    margin: 1rem;
+    background-color: darkcyan;
+    box-shadow: 2px 2px 4px .5px;
+    flex-direction: column;
+}
+.client{
+    width: 100%;
+    height: 350px;
+}
+h2{
+    font-size: 2rem;
+    color: wheat;
+
+}
+h3{
+    font-size: 1.5rem;
+    color: wheat;
+}
+p{
+    font-size: 1.3rem;
+    color: burlywood;
+}
+button{
+    background-color: cadetblue;
+    padding: .5rem .8rem;
+    margin: 1.5rem;
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+    color: yellowgreen;
+    font-size: 1.4rem;
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around   ;
+}
