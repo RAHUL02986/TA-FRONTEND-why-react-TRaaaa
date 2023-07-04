@@ -11,7 +11,7 @@ function App() {
         size="large"
         label="Button"
         type="tertiary"
-
+        onClickHandler={() => alert('You Click Me!')}
       />
     </>
   );
