@@ -2,7 +2,7 @@ import Button from './Button';
 function App() {
   return (
     <>
-      <Button label="Click Me" />
+      <Button label="click" />
       <Button label="Click Me" type="secondary" size="large" />
       <Button label="Click Me" type="tertiary" size="medium" />
       <Button />
@@ -11,6 +11,7 @@ function App() {
         size="large"
         label="Button"
         type="tertiary"
+
       />
     </>
   );
