@@ -6,7 +6,7 @@ function Hero() {
           src="/images/hero.jpeg"
           alt=""
           width="100%"
-          height="350px"
+          height="400px"
           background-size="cover"
         />
       </div>
